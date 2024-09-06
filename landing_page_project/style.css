@@ -1,0 +1,149 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+}
+
+/* Header */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1a1f36;
+    color: white;
+}
+
+.site-header .nav-links a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.site-header .nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #1a1f36;
+    color: white;
+}
+
+.hero-section .hero-content {
+    max-width: 50%;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+}
+
+.hero-section p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.hero-section .hero-image {
+    background-color: #6c757d;
+    width: 40%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* Information Section */
+.info-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    width: 20%;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+    padding: 40px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* CTA Section */
+.cta-section {
+    background-color: #007bff;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.cta-section h3 {
+    font-size: 1.5rem;
+}
+
+.cta-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.site-footer {
+    padding: 20px;
+    background-color: #1a1f36;
+    color: white;
+    text-align: center;
+}
